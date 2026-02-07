@@ -1,1 +1,1 @@
-# ArNitaInfotech_AIML_movie-genre-classification
+# ArNitaInfotech_AIML_credit_card_fraud_detection
