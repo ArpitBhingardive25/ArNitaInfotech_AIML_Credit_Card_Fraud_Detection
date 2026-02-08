@@ -1,62 +1,46 @@
-HEAD
-💳 Credit Card Fraud Detection System
-📌 Project Overview
+# 💳 Credit Card Fraud Detection System
+## 📌 Project Overview
 
 This project is a Machine Learning based Credit Card Fraud Detection System that identifies whether a transaction is fraudulent or legitimate. The system is trained on a real-world dataset and deployed as an interactive Streamlit Web Application where users can upload transaction data and get fraud predictions instantly.
 
-🎯 Objectives
+## 🎯 Objectives
 
-Detect fraudulent credit card transactions
+- Detect fraudulent credit card transactions
+- Handle imbalanced transaction data using SMOTE
+- Compare multiple machine learning models
+- Deploy trained model using Streamlit
+- Provide real-time fraud prediction from uploaded CSV data
 
-Handle imbalanced transaction data using SMOTE
-
-Compare multiple machine learning models
-
-Deploy trained model using Streamlit
-
-Provide real-time fraud prediction from uploaded CSV data
-
-📊 Dataset
+## 📊 Dataset
 
 Source: Kaggle Fraud Detection Dataset
 File Used: fraudTest.csv
 
-Dataset Contains:
+## Dataset Contains:
 
-Transaction details
+- Transaction details
+- Merchant information
+- Location data
+- Transaction time data
+- Fraud Label (is_fraud)
 
-Merchant information
-
-Location data
-
-Transaction time data
-
-Fraud Label (is_fraud)
-
-🛠️ Technologies Used
-Programming Language
+## 🛠️ Technologies Used
+### Programming Language
 
 Python
 
-Libraries
+### Libraries
 
-Pandas
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Imbalanced-learn (SMOTE)
+- Joblib
+- Streamlit
 
-NumPy
-
-Scikit-learn
-
-Matplotlib
-
-Seaborn
-
-Imbalanced-learn (SMOTE)
-
-Joblib
-
-Streamlit
-
-🧠 Machine Learning Models Used
+## 🧠 Machine Learning Models Used
 Model	Purpose
 Logistic Regression	Baseline Model
 Decision Tree	Rule-based Classification
@@ -147,40 +131,32 @@ python -m streamlit run src/app.py
 
 
 Then open:
-
+```
 http://localhost:8501
-
-📈 Sample Output
+```
+## 📈 Sample Output
 
 Fraud Prediction (0 = Legit, 1 = Fraud)
-
 Fraud Probability Score
-
 Fraud Transaction Count
 
-🔑 Key Learnings
+## 🔑 Key Learnings
 
 Handling Imbalanced Data in ML
-
 Model Training & Evaluation
-
 ML Model Serialization
-
 Building ML Web Apps using Streamlit
-
 Debugging Real Deployment Issues
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Add Dashboard Visualizations
-
 Deploy on Cloud (Streamlit Cloud / AWS)
-
 Add Real-time Transaction Prediction
-
 Add User Authentication
 
 👨‍💻 Author
 Arpit Bhingardive
 
 # ArNitaInfotech_AIML_credit_card_fraud_detection
+
